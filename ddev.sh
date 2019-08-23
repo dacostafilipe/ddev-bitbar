@@ -41,7 +41,7 @@ while read -r line; do
       echo "-----"
       echo "--Restart | bash='ddev restart ${NAME}'"
       echo "--Pause | bash='ddev pause ${NAME}'"
-      echo "--Remove | bash='ddev remove ${NAME}'"
+      echo "--Stop | bash='ddev stop ${NAME}'"
     else
       echo "--Start | bash='ddev start ${NAME}'"
       echo "--Remove | bash='ddev remove ${NAME}'"
